@@ -17,7 +17,7 @@ public class DataController {
 
 	@Resource
 	private DataService dataServiceImpl;
-	
+	//
 	@RequestMapping("weatherinfo/cityphoto")
 	@ResponseBody
 	public Area getCity(String cityName) {//获取当前城市(主要为了当前城市照片显示)
